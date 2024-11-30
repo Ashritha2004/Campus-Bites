@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'cart_page.dart';
+import 'cart_page1.dart';
 
 class MenuPage extends StatefulWidget {
   final String restaurantName;
 
-  const MenuPage({Key? key, required this.restaurantName}) : super(key: key);
+  const MenuPage({super.key, required this.restaurantName});
 
   @override
   _MenuPageState createState() => _MenuPageState();
